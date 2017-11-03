@@ -1,0 +1,171 @@
+* {
+	box-sizing: border-box;
+	font-family: Merriweather;
+}
+
+header {
+	text-align: center;
+	color: white;
+	background-color: #4c5c6d;
+	padding: 5px 0;
+}
+
+header h1 {
+	text-transform: uppercase;
+	font-size: 22px;
+}
+
+.title_section {
+	text-align: center;
+	border-bottom: 4px solid #4c5c6d;
+    width: 92%;
+    margin: auto;
+}
+
+.title_section h2 {
+	color: #333;
+	font-weight: 600;
+	font-size: 24px;
+
+}
+
+.title_section p {
+	color: #686868;
+	font-weight: 500;
+}
+
+form {
+	margin: auto;
+	margin-top: 5px;
+	border-top: 2px solid #4c5d6d;
+	width: 92%;
+
+}
+
+.form_details {
+	display: flex;
+	margin-top: 20px;
+	border: none;
+}
+
+
+fieldset {
+	border: none;
+	margin-top: 20px;
+}
+
+
+.form_details {
+	border-bottom: 2px solid #4c5d6d;
+}
+
+
+legend {
+	color: #333;
+	font-weight: 600;
+	font-size: 24px;
+	margin-bottom: 15px;
+}
+
+h2 {
+	font-size: 24px;
+}
+
+
+label, p {
+	color: #686868;
+    font-size: 16px;
+}
+
+.form_details input,select, textarea {
+	background-color: #e8e8e8;
+    border: none;
+    padding: 15px 20px;
+    width: 100%;
+    border-radius: 4px;
+    margin: 10px 0;
+    height: 50px;
+}
+
+textarea {
+	padding: 30px 20px;
+}
+
+.form_preference input {
+	margin: 15px 10px 15px 0;
+}
+
+input[type="postal-code"] {
+	width: 50%;
+}
+
+input:focus {
+	border: 4px solid #4c5c6d;
+}
+
+
+::-webkit-input-placeholder {
+	font-size: 14px;
+	font-style: italic;
+	text-align: right;
+	padding-right: 5px;
+	color: #b8b8b8;
+}
+
+div {
+	margin: 20px 0;
+}
+
+
+#submit {
+	padding: 20px 20px;
+    background-color: turquoise;
+    border: none;
+    border-radius: 6px;
+    color: white;
+    display: block;
+    width: 100%;
+    margin: 15px 0;
+    font-size: 20px;
+}
+
+.caption {
+	text-align: center;
+	font-style: italic;
+	color: #686868;
+}
+
+
+@media (min-width: 768px) {
+	
+	.title_section {
+		width: 70%;
+		margin: auto;
+	}
+
+	.form_section {
+		width: 76.15%;
+		margin: auto;
+	}
+
+	textarea {
+		padding: 50px 20px;
+	}
+
+	.form_details label {
+		display: inline-block;
+		width: 30%;
+	}
+
+	.form_details input, .form_details select {
+		display: inline-block;
+		width: 69%;
+	}
+
+
+
+
+
+}
+
+
